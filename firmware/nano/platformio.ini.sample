@@ -1,0 +1,12 @@
+[env:nano]
+platform = atmelavr
+board = nanoatmega328new
+framework = arduino
+upload_port = COM5
+lib_deps =
+	bblanchon/ArduinoJson@^6.18.4
+	bblanchon/StreamUtils@^1.6.1
+	paulstoffregen/OneWire@^2.3.5
+	milesburton/DallasTemperature@^3.9.1
+	thijse/ArduinoLog@^1.0.3
+	https://github.com/NarinLab/libudawa-atmega328
